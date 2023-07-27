@@ -1,15 +1,15 @@
-A Optus È uma empresa no ramo musical que deseja realizar o gerenciamento dos lanÁamentos de novos cds de seus artistas. Cada ·lbum lanÁado poder· conter mais de um estilo vinculado (ex.: Indie e Folk).
-… importante que vocÍ crie tambÈm uma estratÈgia para que os usu·rios possuam acesso ‡ plataforma.
-Os usu·rios dever„o conter nome, email, senha e o tipo de permiss„o (eles podem ser do tipo administrador ou comum).
+A Optus √© uma empresa no ramo musical que deseja realizar o gerenciamento dos lan√ßamentos de novos cds de seus artistas. Cada √°lbum lan√ßado poder√° conter mais de um estilo vinculado (ex.: Indie e Folk).
+√â importante que voc√™ crie tamb√©m uma estrat√©gia para que os usu√°rios possuam acesso √† plataforma.
+Os usu√°rios dever√£o conter nome, email, senha e o tipo de permiss√£o (eles podem ser do tipo administrador ou comum).
 
-ObservaÁıes:
-Os Artistas dever„o possuir somente nome.
+Observa√ß√µes:
+Os Artistas dever√£o possuir somente nome.
 Estilos: nome.
-Albuns: titulo, data de lanÁamento, localizacao, quantidade de minutos, se o ·lbum est· ativo para visualizaÁ„o, a quem pertence (somente um artista por ·lbum) e quais os estilos vinculados.
+Albuns: titulo, data de lan√ßamento, localizacao, quantidade de minutos, se o √°lbum est√° ativo para visualiza√ß√£o, a quem pertence (somente um artista por √°lbum) e quais os estilos vinculados.
 
 DQL
 
-- listar todos os usu·rios administradores, sem exibir suas senhas
-- listar todos os ·lbuns lanÁados apÛs o um determinado ano de lanÁamento
-- listar os dados de um usu·rio atravÈs do e-mail e senha
-- listar todos os ·lbuns ativos, mostrando o nome do artista e os estilos do ·lbum 
+- listar todos os usu√°rios administradores, sem exibir suas senhas
+- listar todos os √°lbuns lan√ßados ap√≥s o um determinado ano de lan√ßamento
+- listar os dados de um usu√°rio atrav√©s do e-mail e senha
+- listar todos os √°lbuns ativos, mostrando o nome do artista e os estilos do √°lbum 

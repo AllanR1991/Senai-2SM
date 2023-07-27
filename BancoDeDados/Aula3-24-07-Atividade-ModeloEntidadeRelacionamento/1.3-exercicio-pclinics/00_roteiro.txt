@@ -1,19 +1,19 @@
-Uma clÌnica veterin·ria deseja cadastrar os pets que s„o atendidos em seu local.
+Uma cl√≠nica veterin√°ria deseja cadastrar os pets que s√£o atendidos em seu local.
 
-- a clÌnica contÈm um endereÁo;
-- os pets dever„o ter nome, data de nascimento, tipo de pet;
-- os pets dever„o ter raÁa;
-- os pets dever„o ter donos;
-- a clÌnica deseja cadastrar seus veterin·rios e todo atendimento de pet ser· feito por um veterin·rio;
+- a cl√≠nica cont√©m um endere√ßo;
+- os pets dever√£o ter nome, data de nascimento, tipo de pet;
+- os pets dever√£o ter ra√ßa;
+- os pets dever√£o ter donos;
+- a cl√≠nica deseja cadastrar seus veterin√°rios e todo atendimento de pet ser√° feito por um veterin√°rio;
 
 DML
 
-- cada atendimento deve registrar qual veterin·rio atendeu, qual pet foi atendido, descriÁ„o da consulta e data da consulta
+- cada atendimento deve registrar qual veterin√°rio atendeu, qual pet foi atendido, descri√ß√£o da consulta e data da consulta
 
 DQL
 
-- listar todos os veterin·rios (nome e CRMV) de uma clÌnica (raz„o social)
-- listar todas as raÁas que comeÁam com a letra S
+- listar todos os veterin√°rios (nome e CRMV) de uma cl√≠nica (raz√£o social)
+- listar todas as ra√ßas que come√ßam com a letra S
 - listar todos os tipos de pet que terminam com a letra O
 - listar todos os pets mostrando os nomes dos seus donos
-- listar todos os atendimentos mostrando o nome do veterin·rio que atendeu, o nome, a raÁa e o tipo do pet que foi atendido, o nome do dono do pet e o nome da clÌnica onde o pet foi atendido
+- listar todos os atendimentos mostrando o nome do veterin√°rio que atendeu, o nome, a ra√ßa e o tipo do pet que foi atendido, o nome do dono do pet e o nome da cl√≠nica onde o pet foi atendido
