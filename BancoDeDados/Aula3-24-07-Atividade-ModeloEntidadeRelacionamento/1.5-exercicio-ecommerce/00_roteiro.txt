@@ -1,10 +1,10 @@
 E-Commerce - SenaiShop
 
-Uma Loja possui v·rias categorias
+Uma Loja possui v√°rias categorias
 Uma categoria possui subcategorias
 Um produto possui uma subcategoria
 Um cliente efetua um pedido
-Um pedido pode ter 1 ou v·rios produtos
+Um pedido pode ter 1 ou v√°rios produtos
 
 DQL
 

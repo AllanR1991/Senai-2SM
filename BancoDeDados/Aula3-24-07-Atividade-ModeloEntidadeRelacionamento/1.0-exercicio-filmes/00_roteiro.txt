@@ -1,4 +1,4 @@
-Você deverá criar a modelagem para o catálogo de filmes, observando a seguinte situação:
+VocÃª deverÃ¡ criar a modelagem para o catÃ¡logo de filmes, observando a seguinte situaÃ§Ã£o:
 
-- um filme possui apenas um único gênero.
-- um gênero pode definir mais de um filme.
+- um filme possui apenas um Ãºnico gÃªnero.
+- um gÃªnero pode definir mais de um filme.
