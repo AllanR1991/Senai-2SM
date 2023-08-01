@@ -15,4 +15,25 @@ insert into Email(IdPessoa,EnderecoEmail) values
 	(4,'guilherme@guilherme.com')
 
 insert into Telefone(IdPessoa,NumeroTelefone) values
-	(5,'5509225242857'
+	(5,'5509225242857'),
+	(1,'55092939371151'),
+	(3,'5504322758271'),
+	(4,'5582039618933'),
+	(2,'5515935346802')
+
+select * from Pessoa;
+select * from Email;
+select * from Telefone;
+
+--Usando Join
+
+SELECT 
+    Pessoa.Nome AS Cliente,
+    Email.EnderecoEmail AS Email,
+    Telefone.NumeroTelefone AS Telefone
+FROM 
+    Pessoa
+LEFT JOIN 
+    Email ON Pessoa.IdPessoa = Email.IdPessoa
+LEFT JOIN 
+    Telefone ON Pessoa.IdPessoa = Telefone.IdPessoa;
