@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Página-1" id="3oRAbKmRTNMW5dDMv224">
-        <mxGraphModel dx="2166" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="806" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -107,7 +107,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="104" value="Genero" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="589" width="180" height="90" as="geometry"/>
+                    <mxGeometry x="460" y="604" width="180" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="104" vertex="1">
                     <mxGeometry y="30" width="180" height="30" as="geometry"/>
@@ -243,7 +243,7 @@
                 <mxCell id="232" value="Você deverá criar a modelagem para o catálogo de filmes, observando a seguinte situação:&#10;&#10;&#10;- um filme possui apenas um único gênero.&#10;- um gênero pode definir mais de um filme." style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="154" y="84" width="520" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;" edge="1" parent="1" source="105" target="101">
+                <mxCell id="233" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;" parent="1" source="105" target="101" edge="1">
                     <mxGeometry width="100" height="100" relative="1" as="geometry">
                         <mxPoint x="497" y="690" as="sourcePoint"/>
                         <mxPoint x="597" y="590" as="targetPoint"/>
