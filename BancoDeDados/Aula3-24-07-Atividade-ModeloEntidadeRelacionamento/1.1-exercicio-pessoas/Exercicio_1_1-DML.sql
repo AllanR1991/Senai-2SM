@@ -37,3 +37,12 @@ LEFT JOIN
     Email ON Pessoa.IdPessoa = Email.IdPessoa
 LEFT JOIN 
     Telefone ON Pessoa.IdPessoa = Telefone.IdPessoa;
+
+--Junçao sem Join
+
+--Desendete -> decresente
+--Seleciona (Atributo) da (Tabela) orderna Por (atributo) ASC|DESC.
+select Pessoa.Nome,Pessoa.CNH,Email.EnderecoEmail,Telefone.NumeroTelefone 
+from Pessoa,Email,Telefone 
+where Pessoa.IdPessoa = Email.IdPessoa AND Pessoa.IdPessoa = Telefone.IdPessoa 
+order by Nome Desc
