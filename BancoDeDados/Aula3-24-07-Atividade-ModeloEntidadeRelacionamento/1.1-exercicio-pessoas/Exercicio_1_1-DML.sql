@@ -26,7 +26,7 @@ select * from Email;
 select * from Telefone;
 
 --Usando Join
-
+--[Data] faz um campo data ao invez de usar como palavra reservada
 SELECT 
     Pessoa.Nome AS Cliente,
     Email.EnderecoEmail AS Email,
