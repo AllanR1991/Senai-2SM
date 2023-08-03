@@ -12,28 +12,28 @@ create table Endereco(
 	Numero int not null,
 	UF varchar(2)
 )
-
+/*
 alter table Endereco
 alter column Complemento varchar(100) null;
-
+*/
 create table Clinica(
 	IdClinica int primary key identity,
-	IdEndereco int foreign key references Endereco(IdEndereco),
+	IdEndereco int foreign key references Endereco(IdEndereco) unique,
 	RazaoSocial varchar(150) not null,
 	CNPJ varchar(20) not null
 )
 
 create table Cliente(
 	IdCliente int primary key identity,
-	IdEndereco int foreign key references Endereco(IdEndereco) unique,
+	IdEndereco int foreign key references Endereco(IdEndereco),
 	Cliente varchar(150) not null,
 	CPF varchar(20)not null
 )
 
-create table Veterinaro(
+create table Veterinario(
 	IdVeterinario int primary key identity,
 	IdClinica int foreign key references Clinica(IdClinica),
-	Clinica varchar(150) not null,
+	Veterinario varchar(150) not null,
 	CRMV varchar(15) not null
 )
 
@@ -57,7 +57,7 @@ create table Pet(
 
 create table Atendimento(
 	IdAtendimento int primary key identity,
-	IdVeterinario int foreign key references Veterinaro(IdVeterinario),
+	IdVeterinario int foreign key references Veterinario(IdVeterinario),
 	IdPet int foreign key references Pet(IdPet),
 	Protocolo varchar(50),
 	DataAtendimento date,
@@ -67,5 +67,5 @@ create table Atendimento(
 create table PetCliente(
 	IdPetCliente int primary key identity,
 	IdPet int foreign key references Pet(IdPet),
-	IdCliente int foreign key references Cliente(IdCliente),
+	IdCliente int foreign key references Cliente(IdCliente)
 )
