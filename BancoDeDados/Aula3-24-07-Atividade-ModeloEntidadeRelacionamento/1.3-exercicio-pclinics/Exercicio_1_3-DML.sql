@@ -88,9 +88,9 @@ insert into PetCliente (IdPet,IdCliente) values
 	(1,3),
 	(3,7)
 
-select * from Pet;
 select * from Cliente;
 select * from Endereco;
+select * from Pet;
 
 --Resposta Exercicio DQL
 
@@ -99,7 +99,8 @@ select Raca.Raca from Raca where Raca.Raca like 's%'
 select Tipo from TipoPet where Tipo like '%o'
 select Pet.Nome,Cliente.Cliente from Pet left join PetCliente on Pet.IdPet=PetCliente.IdPet left join Cliente on PetCliente.IdCliente=Cliente.IdCliente
 
-select Atendimento.Protocolo,Atendimento.DataAtendimento,Atendimento.HistoricoClinico,Veterinario.Veterinario,Pet.Nome,Raca.Raca,TipoPet.Tipo,Cliente.Cliente,.Clinica.RazaoSocial from Atendimento 
+select Atendimento.Protocolo,Atendimento.DataAtendimento,Atendimento.HistoricoClinico,Veterinario.Veterinario,Pet.Nome,Raca.Raca,TipoPet.Tipo,Cliente.Cliente,.Clinica.RazaoSocial 
+from Atendimento 
 left join Veterinario on Atendimento.IdVeterinario=Veterinario.IdVeterinario
 left join Clinica on Veterinario.IdClinica=Clinica.IdClinica
 left join Pet on Atendimento.IdPet = Pet.IdPet
