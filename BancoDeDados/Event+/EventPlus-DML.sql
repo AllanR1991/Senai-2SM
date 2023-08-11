@@ -30,3 +30,30 @@ insert into PresencasEnvento (IdUsuario,IdEvento) Values (
 insert into Comentario (IdUsuario,IdEvento,Descricao,Exibe) values (
 	(1,1,'Excelente evento',1)
 )
+
+--Realizado Copia de dados do amigo.
+
+--Inserir dados na tabela
+INSERT INTO TipoDeUsuario(TituloTipoUsuario)
+VALUES ('Administrador') , ('Comum')
+
+--Exemplo de forma simplificada, obrigado preencher todos os campos na ordem
+--INSERT INTO TipoDeUsuario VALUES ('Administrador') , ('Comum')
+
+INSERT INTO TiposDeEvento (TituloTipoEvento)
+VALUES ('Sql Server')
+
+INSERT INTO Instituicao(CNPJ, Endereco, NomeFantasia)
+VALUES ('12345678901234', 'Rua Niterói 180', 'DevSchool')
+
+INSERT INTO Usuario(IdTipoDeUsuario,Nome,Email,Senha)
+VALUES (1, 'Gabriel','admin@admin.com', 'admin1234')
+
+INSERT INTO Evento(IdTipoDeEvento, IdInstituicao, Nome, Descricao, DataEvento, HoraEvento)
+VALUES (1,1,'Introdução ao Banco de Dados SQL Server', 'Aprenda conceitos básicos do SQL Server', '2023-08-10', '10:00:00')
+
+INSERT INTO PresencasEvento(IdUsuario, IdEvento)
+VALUES (1,1)
+
+INSERT INTO ComentarioEvento(Idusuario, IdEvento, Descricao, Exibe)
+VALUES (1,1, 'Excelente evento, professor top!', 1)
