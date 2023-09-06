@@ -4,8 +4,9 @@
     "\\API",
     "\\API\\senai_filmes_webApi",
     "\\API\\senai_filmes_webApi\\senai_filmes_webApi",
-    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Domains"
+    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Domains",
+    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Interfaces"
   ],
-  "SelectedNode": "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Domains\\FilmeDomain.cs",
+  "SelectedNode": "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Interfaces\\IGeneroRepository.cs",
   "PreviewInSolutionExplorer": false
 }
