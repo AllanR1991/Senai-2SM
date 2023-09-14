@@ -1,7 +1,7 @@
 --Comandos DDL -> Data Definition Language
-create database Exercicio_0_0;
+create database Filme;
 
-use Exercicio_0_0;
+use Filme;
 
 create table Genero(
 	IdGenero int primary key identity,

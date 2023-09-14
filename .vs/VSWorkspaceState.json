@@ -4,9 +4,9 @@
     "\\API",
     "\\API\\senai_filmes_webApi",
     "\\API\\senai_filmes_webApi\\senai_filmes_webApi",
-    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Domains",
-    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Interfaces"
+    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Controllers",
+    "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Repositories"
   ],
-  "SelectedNode": "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Interfaces\\IGeneroRepository.cs",
+  "SelectedNode": "\\API\\senai_filmes_webApi\\senai_filmes_webApi\\Controllers\\GeneroController.cs",
   "PreviewInSolutionExplorer": false
 }

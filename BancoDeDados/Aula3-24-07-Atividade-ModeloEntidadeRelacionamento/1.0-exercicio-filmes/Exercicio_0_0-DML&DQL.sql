@@ -1,4 +1,4 @@
-use Exercicio_0_0;
+use Filme;
 
 insert into Genero(Genero) values
 	('Ação'),
