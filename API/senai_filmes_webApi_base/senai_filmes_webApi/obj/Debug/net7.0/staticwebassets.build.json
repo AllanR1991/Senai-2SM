@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HDyBDclplEDR6THNFbiKuQNJKlbK1MphmLap+R10qkE=",
+  "Source": "senai_filmes_webApi",
+  "BasePath": "_content/senai_filmes_webApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
