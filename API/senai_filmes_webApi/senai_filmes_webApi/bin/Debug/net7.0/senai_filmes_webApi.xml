@@ -4,6 +4,37 @@
         <name>senai_filmes_webApi</name>
     </assembly>
     <members>
+        <member name="M:senai_filmes_webApi.Banco.StringConexao">
+            <summary>
+            Metodo criado para acessar o banco de dados.
+            </summary>
+            <returns>Retorna a string com os dados para acessar o banco de dados.</returns>
+        </member>
+        <member name="M:senai_filmes_webApi.Controllers.FilmeController.#ctor">
+            <summary>
+            Criado um construtor onde sempre que houver uma requisição ou chamada para FilmeController ele automaticamente ja Instancia o objeto _filmeRepository para que haja a referencia aos métodos no repositorio
+            </summary>
+        </member>
+        <member name="M:senai_filmes_webApi.Controllers.FilmeController.Get">
+            <summary>
+            O End-point tem como função listar todos os filmes registrados no sistema.
+            </summary>
+            <returns>Retornando um status code 200 juntamente com a listaDeFilmes obtida pela busca.</returns>
+        </member>
+        <member name="M:senai_filmes_webApi.Controllers.FilmeController.Post(senai_filmes_webApi.Domains.FilmeDomain)">
+            <summary>
+            Este End-Point Cadastra um novo Filme.
+            </summary>
+            <param name="novoFilme">Objeto contento as informações do novo filme a ser cadastrado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:senai_filmes_webApi.Controllers.FilmeController.Delete(System.Int32)">
+            <summary>
+            End-Point responsavel por efetuar a exclusão de um Filme, passando o ID pela Url do End-Point
+            </summary>
+            <param name="id">Id que sera deletado do banco de dados.</param>
+            <returns> Retorna um status code NoContent-204 </returns>
+        </member>
         <member name="P:senai_filmes_webApi.Controllers.GeneroController._generoRepository">
             <summary>
             Objeto _generoRepository que irá receber todos os metodos definidos na interface IGeneroRepository
@@ -141,10 +172,29 @@
             </summary>
             <param name="idGenero">id do genero que sera deletado</param>
         </member>
-        <member name="F:senai_filmes_webApi.Repositories.FilmeRepository.bdConexao">
+        <member name="M:senai_filmes_webApi.Repositories.FilmeRepository.AtualizarIdCorpo(senai_filmes_webApi.Domains.FilmeDomain)">
             <summary>
             String que contem o servidor nome do banco de dados, usuario e 
             </summary>
+        </member>
+        <member name="M:senai_filmes_webApi.Repositories.FilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Método para buscar um filme cadastrado no Banco de dados.
+            </summary>
+            <param name="idFilme">Parametro idFilme que sera passado para buscarmos no sistema.</param>
+            <returns>Retorna um Objeto FilmeDomain</returns>
+        </member>
+        <member name="M:senai_filmes_webApi.Repositories.FilmeRepository.Cadastrar(senai_filmes_webApi.Domains.FilmeDomain)">
+            <summary>
+            Metodo para cadastrar um novoFilme.
+            </summary>
+            <param name="novoFilme">Objeto recebido como parametro contendo os dados do novo filme a ser inserido no sistema.</param>
+        </member>
+        <member name="M:senai_filmes_webApi.Repositories.FilmeRepository.ListarTodos">
+            <summary>
+            Metodo que lista todos os Filmes do banco de dados
+            </summary>
+            <returns>Retorna uma lista de Filmes para quem chamou</returns>
         </member>
         <member name="T:senai_filmes_webApi.Repositories.GeneroRepository">
             <summary>

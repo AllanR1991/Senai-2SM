@@ -6,6 +6,9 @@ using senai_filmes_webApi.Repositories;
 
 namespace senai_filmes_webApi.Controllers
 {
+    //Define que o tipo de resposta da api seja no formato Json
+    [Produces("application/json")]
+
     [Route("api/[controller]")]
     [ApiController]
     public class GeneroController : ControllerBase
